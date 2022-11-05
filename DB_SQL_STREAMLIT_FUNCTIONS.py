@@ -11,7 +11,7 @@ import mysql.connector
 from mysql.connector.constants import ClientFlag
 
 config = {
-    'user': st.secrets["user"],
+    'user': 'JW',
     'password': st.secrets["password"],
     'host': st.secrets["host"],
     'client_flags': [ClientFlag.SSL],
