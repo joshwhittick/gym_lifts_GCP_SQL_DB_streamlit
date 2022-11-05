@@ -18,7 +18,7 @@ config = {
     'ssl_ca': '.streamlit/server-ca.pem',
     'ssl_cert': '.streamlit/client-cert.pem',
     'ssl_key': '.streamlit/client-key.pem',
-    'database': 'lifting-db'
+    'database': st.secrets["database"]
 }
 
 cnxn = mysql.connector.connect(**config)
