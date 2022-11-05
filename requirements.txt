@@ -3,4 +3,5 @@ matplotlib
 numpy
 datetime
 streamlit
-psycopg2-binary==2.9.5
+mysql-connector-python
+mysql-connector
