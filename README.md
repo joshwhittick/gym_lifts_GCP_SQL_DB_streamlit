@@ -15,7 +15,6 @@ main page for streamlit web app launching
 **make_SQL_DB_with_pyth.py**
 initial python code for making table in GCP MySQL DB although am on $300 trial so will also fail like Heroku version but just wanted that proof of concept
 
-
 **pages/Insert to Database.py**
 build streamlit page defining widgets to input data and calling the necessary functions to write to the DB
 
