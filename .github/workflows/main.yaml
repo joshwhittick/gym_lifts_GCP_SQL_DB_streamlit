@@ -6,4 +6,4 @@ jobs:
                 CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
                 CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
                 SERVER_CA: ${{ secrets.SERVER_CA }}
-            run: Lifting_DB_Main_Page.py 
+            run: gym_lifts_SQL_DB_streamlit_version
