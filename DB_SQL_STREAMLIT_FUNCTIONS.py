@@ -15,9 +15,9 @@ config = {
     'password': st.secrets["password"],
     'host': st.secrets["host"],
     'client_flags': [ClientFlag.SSL],
-    'ssl_ca': st.secrets["server_ca"],
-    'ssl_cert': st.secrets["client_cert"],
-    'ssl_key': st.secrets["client_key"],
+    'ssl_ca': .streamlit/server-ca.pem,
+    'ssl_cert': .streamlit/client-cert.pem,
+    'ssl_key': .streamlit/client-key.pem,
     'database': st.secrets["database"]
 }
 
