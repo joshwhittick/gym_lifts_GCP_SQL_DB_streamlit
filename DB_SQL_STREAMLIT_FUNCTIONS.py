@@ -17,7 +17,7 @@ config = {
     'client_flags': [ClientFlag.SSL],
     'ssl_ca': ${{ secrets.SERVER_CA }},
     'ssl_cert': ${{ secrets.CLIENT_CERT }},
-    'ssl_key': $ {{ secrets.CLINET_KEY }},
+    'ssl_key': ${{ secrets.CLINET_KEY }},
     'database': st.secrets["database"]
 }
 
