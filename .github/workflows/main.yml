@@ -1,5 +1,4 @@
-name: run 
-  - shell: bash
+- name: run 
     env:
       CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
       CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
