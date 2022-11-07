@@ -3,5 +3,4 @@
       CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
       CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
       SERVER_CAKEY: ${{ secrets.SERVER_CA }}
-    run: |
-        DB_SQL_STREAMLIT_FUNCTIONS.py 
+    run: DB_SQL_STREAMLIT_FUNCTIONS.py 
