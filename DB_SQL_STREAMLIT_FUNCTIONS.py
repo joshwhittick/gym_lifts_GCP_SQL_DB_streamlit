@@ -19,7 +19,7 @@ config = {
     'client_flags': [ClientFlag.SSL],
     'ssl_ca': os.environ['SERVER_CA'],
     'ssl_cert': os.environ['CLIENT_CERT'],
-    'ssl_key': os.environ['CLINET_KEY'],
+    'ssl_key': os.environ['CLIENT_KEY'],
     'database': st.secrets["database"]
 }
 
