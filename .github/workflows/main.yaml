@@ -1,6 +1,9 @@
-- name: run 
-    env:
-      CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
-      CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
-      SERVER_CAKEY: ${{ secrets.SERVER_CA }}
-    run: DB_SQL_STREAMLIT_FUNCTIONS.py 
+jobs:
+    build:
+        steps:
+            - name: run 
+            env:
+                CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
+                CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
+                SERVER_CA: ${{ secrets.SERVER_CA }}
+            run: DB_SQL_STREAMLIT_FUNCTIONS.py 
