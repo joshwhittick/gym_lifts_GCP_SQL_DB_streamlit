@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib import style
 
-import os
-
 import numpy as np
 
 import streamlit as st
