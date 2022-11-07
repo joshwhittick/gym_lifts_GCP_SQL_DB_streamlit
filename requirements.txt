@@ -5,3 +5,4 @@ datetime
 streamlit
 mysql-connector-python
 mysql-connector
+os
