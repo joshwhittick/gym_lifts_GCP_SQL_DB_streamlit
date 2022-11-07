@@ -4,4 +4,4 @@
       CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
       SERVER_CAKEY: ${{ secrets.SERVER_CA }}
     run: |
-      main.yml
+        DB_SQL_STREAMLIT_FUNCTIONS.py 
