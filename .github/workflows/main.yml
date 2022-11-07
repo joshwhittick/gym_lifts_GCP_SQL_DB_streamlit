@@ -4,3 +4,4 @@ steps:
       CLIENT_CERT: ${{ secrets.CLIENT_CERT }}
       CLIENT_KEY: ${{ secrets.CLIENT_KEY }}
       SERVER_CAKEY: ${{ secrets.SERVER_CA }}
+    run:
