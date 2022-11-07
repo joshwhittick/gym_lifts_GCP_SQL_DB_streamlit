@@ -17,9 +17,9 @@ config = {
     'password': st.secrets["password"],
     'host': st.secrets["host"],
     'client_flags': [ClientFlag.SSL],
-    'ssl_ca': os.environ.get['SERVER_CA'],
-    'ssl_cert': os.environ.get['CLIENT_CERT'],
-    'ssl_key': os.environ.get['CLINET_KEY'],
+    'ssl_ca': os.environ['SERVER_CA'],
+    'ssl_cert': os.environ['CLIENT_CERT'],
+    'ssl_key': os.environ['CLINET_KEY'],
     'database': st.secrets["database"]
 }
 
