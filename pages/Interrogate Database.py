@@ -6,7 +6,7 @@ from DB_SQL_STREAMLIT_FUNCTIONS import total_lifted_for_exercise, total_lifted_f
 st.markdown("# Interogate Database")
 st.title("Interogate Lifting Database")
 
-st.caption("
+st.text("
             1: See all time total weight lifted for an exercise?
             2: See all the days an exercise was performed and the associated sets/reps/load as well as a graph for this?
            ")
