@@ -6,7 +6,10 @@ from DB_SQL_STREAMLIT_FUNCTIONS import total_lifted_for_exercise, total_lifted_f
 st.markdown("# Interogate Database")
 st.title("Interogate Lifting Database")
 
-st.caption("1: See all time total weight lifted for an exercise?\n2: See all the days an exercise was performed and the associated sets/reps/load as well as a graph for this?")
+st.caption("
+            1: See all time total weight lifted for an exercise?
+            2: See all the days an exercise was performed and the associated sets/reps/load as well as a graph for this?
+           ")
 options = st.radio('Pick query option:', ('1', '2'))
  
 if options == "1":
