@@ -2,7 +2,9 @@
 
 **Development of https://github.com/joshwhittick/gym_lifting_tracking as a web app using https://streamlit.io to host and https://cloud.google.com/sql/docs/mysql for a MySQL DB (although am on $300 trial so will also fail like Heroku version but just wanted that proof of concept)**
 
-files here are for the purpose of launcing app on streamlit and not for running on personal machine with MySQL DB
+https://joshwhittick-gym-lifts-gcp-sql-db.streamlit.app
+
+files here are for the purpose of launcing app on streamlit
 
 **notes on files included:**
 
